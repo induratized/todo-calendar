@@ -1,0 +1,63 @@
+#header {
+  text-align: center;
+  vertical-align: middle;
+}
+
+#cal_days {
+  width: 100%;
+  display: table;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+}
+
+
+.cal_days {
+  display: table-cell;
+  width: 14.28%;
+  padding: 5px;
+}
+
+#cal_dates {
+  width: 100%;
+  display: table;
+}
+
+
+.cal_dates {
+  display: table-cell;
+  width: 14.28%;
+  float: left;
+  height: 40px;
+  text-align: right;
+  padding: 10px;
+}
+
+.cal_dates:hover {
+  background-color: #dddddd;
+  cursor: pointer;
+}
+
+.disable-span, .disable-span:hover {
+  color: #bbbbbb; 
+}
+
+input {
+  margin: 10px 0px 10px 0px;
+}
+  
+.has-task {
+  background-color:green;
+
+}
+
+/*#task_lists {
+  background-color: grey;
+}*/
+/*
+#cal_container {
+  background-color: blue;
+}*/
+
+/*.date-block {
+
+}*/
